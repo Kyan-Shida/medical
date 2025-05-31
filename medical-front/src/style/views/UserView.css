@@ -1,0 +1,112 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f7fc;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.user-profile {
+  width: 100%;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border-left: 4px solid #3b8ec5;
+  border-radius: 8px;
+}
+
+h2 {
+  font-size: 32px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.avatar-section {
+  width: 250px;
+  text-align: center;
+}
+
+.avatar-section .avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border: 2px solid rgb(1, 9, 4);
+}
+
+.avatar-section .bio {
+  font-size: 14px;
+  color: #777;
+  line-height: 1.6;
+  margin-top: 10px;
+}
+
+.info-section {
+  flex: 1;
+}
+
+.info-section h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.info-section p {
+  font-size: 16px;
+  line-height: 1.8;
+  margin: 8px 0;
+}
+
+.info-section strong {
+  color: #0073e6;
+}
+
+h4 {
+  font-size: 20px;
+  margin-top: 20px;
+  color: #333;
+}
+
+ul {
+  padding-left: 20px;
+  list-style-type: disc;
+  color: #555;
+}
+
+ul li {
+  font-size: 16px;
+  margin: 5px 0;
+}
+form {
+  margin-top: 20px;
+}
+
+form input {
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 200px;
+}
+
+form button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #45a049;
+}

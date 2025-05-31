@@ -1,0 +1,100 @@
+.education {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: #f9f9f9;
+  overflow: auto;
+}
+
+.education h1 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.education p {
+  color: #555;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.topics {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Add space between cards */
+}
+
+.topic-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  width: 400px; /* Fixed width for topic card */
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+h2 {
+  color: #2980b9;
+  margin-bottom: 10px;
+}
+
+.topic-card p {
+  color: #666;
+}
+
+.article-display {
+  margin-top: 20px;
+}
+
+.article-card {
+  border: 1px solid #ddd;
+  border-left: 3px solid #208aaa;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  width: 600px; /* Fixed width for article card */
+}
+
+.article-card:hover {
+  transform: scale(1.02);
+}
+
+h3 {
+  color: #333;
+  margin: 0 0 10px;
+}
+
+.article-card p {
+  color: #555;
+}
+.search-category {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.article-card {
+  margin-bottom: 20px;
+}
+
+.article-content {
+  display: flex;
+  align-items: flex-start;
+}
+
+.article-image {
+  width: 120px;
+  height: 80px;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.article-text {
+  flex: 1;
+}

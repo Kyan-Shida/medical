@@ -1,0 +1,80 @@
+/* @font-face {
+  font-family: xiari;
+  src: url("../../assets/font/夏日体.ttf");
+} */
+.back_main_view {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.back_main_view a {
+  display: flex;
+  align-items: center; /* 垂直居中 */
+  color: #073392;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  max-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 100vw; */
+  height: 100vh;
+  background-color: rgb(220, 238, 247);
+  /* background: linear-gradient(to right, rgb(3, 197, 223), rgb(209, 220, 223)); */
+}
+.box_out {
+  display: flex;
+  width: 60%;
+  height: 100%;
+}
+.box_left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+}
+.box_left_img {
+  width: 100%;
+  height: 40%;
+  border-radius: 10px;
+}
+.box_right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+}
+.box_right_table {
+  width: 100%;
+  height: 40%;
+  background: linear-gradient(to right, rgb(209, 220, 223), rgb(3, 197, 223));
+  /* font-family: xiari; */
+  font-size: 30px;
+  text-align: center;
+  border-radius: 10px;
+}
+.box_right_table input {
+  border: none;
+  border-bottom: 1px rgb(79, 88, 83) solid;
+  outline: none;
+  background: transparent;
+  font-size: 20px;
+  text-align: center;
+}
+.box_right_table button {
+  color: black;
+  font-size: 20px;
+  border-radius: 10px;
+  width: 30%;
+  height: auto;
+}
+.box_right_table a {
+  color: black;
+  font-size: 20px;
+}
