@@ -1,4 +1,4 @@
-# 🏥 健康管家平台 Medical
+# 🏥 健康管家平台 Medical-我的本科毕设
 
 [![Vue](https://img.shields.io/badge/Vue-2.6+-4FC08D?logo=vue.js&logoColor=white)](https://vuejs.org/)
 [![Java](https://img.shields.io/badge/Java-17+-ED8B00?logo=openjdk&logoColor=white)](https://www.oracle.com/java/)
@@ -17,6 +17,10 @@
 健康管家平台是一款面向个人与社区的医疗健康服务系统，以「科技促进健康」为核心理念，在传统病历管理、病症预测的基础上，全面接入**智谱 GLM-4.7 大模型**，基于 **LangChain 框架**构建 RAG 检索增强引擎，实现智能问诊、风险评估、健康科普、老年监护等全场景健康服务。
 
 平台采用前后端分离架构，前端提供可视化交互与健康数据展示，后端承载业务逻辑与数据管理，独立 AI 引擎模块提供大模型推理与知识库检索能力；支持病历 OCR 识别、多轮健康对话、患病风险评估报告生成等核心功能，同时面向老年群体打造健康手环联动、电子病历二维码、家属/社区医院联网监护等特色服务。
+
+![image](img1.png)
+
+![image](img4.png)
 
 ## ✨ 核心特性
 
